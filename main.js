@@ -3,7 +3,7 @@
 ------------*/
 const API_URL = "https://api.openai.com/v1/chat/completions";
 const MODEL = "gpt-3.5-turbo";
-const API_KEY = "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";
+const API_KEY = window.env.OPENAI_API_KEY;
 
 const loader = document.querySelector('.loading');
 const modal = document.querySelector(".modal");
