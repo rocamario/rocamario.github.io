@@ -28,7 +28,7 @@ async function tellStory(location, action) {
             messages: [
                 {
                     role: "user",
-                    content: `Write a message to attach to a pic I took together with my boyfriend in ${location} while ${action} with a maximum of 300 characters. Express my love for him. Always talk using the past mode. Always add some emoticons based on the content but no hashtags.`
+                    content: `Write a message to attach to a pic that I took together with my boyfriend in ${location} while ${action} with a maximum of 300 characters. Express my love for him. Always talk using the past mode. Always add some emoticons based on the content but no hashtags.`
                 }
             ],
             temperature: temperature
