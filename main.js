@@ -1,9 +1,8 @@
 /*-----------
     VARIABILI 
 ------------*/
-const API_URL = "https://api.openai.com/v1/chat/completions";
+const API_URL = "https://192.168.1.148:3000";
 const MODEL = "gpt-3.5-turbo";
-const API_KEY = window.env.OPENAI_API_KEY;
 
 const loader = document.querySelector('.loading');
 const modal = document.querySelector(".modal");
@@ -21,7 +20,7 @@ async function tellStory(location, action) {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": `Bearer ${API_KEY}` 
+            // "Authorization": `Bearer ${API_KEY}` 
         },
         body: JSON.stringify({
             model: MODEL,
