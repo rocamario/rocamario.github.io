@@ -1,7 +1,7 @@
 /*-----------
     VARIABILI 
 ------------*/
-const API_URL = "https://151.34.10.133:3000";
+const API_URL = "https://151.35.0.127:3000";
 const MODEL = "gpt-3.5-turbo";
 
 const loader = document.querySelector('.loading');
