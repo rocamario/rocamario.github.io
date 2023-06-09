@@ -3,7 +3,7 @@
 ------------*/
 const API_URL = "https://37.163.128.37:3000";
 const MODEL = "gpt-3.5-turbo";
-API_KEY = process.env.OPENAI_API_KEY
+const API_KEY = process.env.OPENAI_API_KEY
 
 const loader = document.querySelector('.loading');
 const modal = document.querySelector(".modal");
